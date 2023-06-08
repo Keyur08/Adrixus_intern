@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Home Page</title>
+  <style>
+    body{
+      background-color:darkblue;
+    }
+   
+    .logo {
+      color: orange;
+      font-size: 85%;
+      font-weight: bold;
+    } 
+    
+    .navigation {
+      margin-top: 0.1%;
+      text-align: right;
+    }
+    
+    .navigation a {
+      color: black;
+      text-decoration:solid;
+      margin: 0 1%;
+    }
+    
+    .search {
+      text-align: right;
+      margin-top: 20px;
+    }
+
+#section1{
+    background-color: white;
+    padding: 2%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+
+
+.box-effect {
+     
+      box-shadow: 2% 2% 15% rgba(0, 0, 0, 0.2);
+      background-color: #f7f7f7;
+      padding: 1% ,5% ,2%;
+      border-radius: 4%;
+      margin-left: 3%;
+      margin-right: 3%;
+
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+
+
+
+.right-text{
+  float: right;
+  
+  margin-right: 25%;
+  color: orange;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding:2%;
+  color: #f7f7f7;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  display: flex;
+      justify-content: space-between;
+}
+/* holding img and text  */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dot_blue {
+  height: 25px;
+  width: 25px;
+  background-color:darkblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot_orange {
+  height: 25px;
+  width: 25px;
+  background-color:orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /*  Footer CSS */
+    footer {
+  background-color:darkblue;
+  padding: 20px;
+  color: #f7f7f7;
+}
+
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  color: #f7f7f7;
+}
+
+.column {
+  width: 20%;
+  padding: 10px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f7f7f7;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #f7f7f7;
+}
+
+.li {
+  margin-bottom: 5px;
+  color: #f7f7f7;
+}
+
+.a {
+  text-decoration: none;
+ 
+  color: #f7f7f7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 5px;
+  color: #f7f7f7;
+}
+
+a:link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+  </style>
+</head>
+
+
+<body>
+  <!-- SECTION 1 -->
+    <div class="box-effect">
+     
+      <div class="logo left "  id="section1"  >
+        <img src="wallet.png" alt="logo" height="25%" width="25%" style="float: left; padding-left: 2%;"> 
+        <b style="float: right;"><h1> DIGITALEX</h1> </b>
+      </div>
+  <div class="navigation" id="section1">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="login.html">Login</a>
+
+
+    <input type="text" placeholder=search >
+    <button><img src="search.jpg" alt="Search" width="100%" height="10px"></button>
+  
+    </div>
+    <div id="section1">
+    <img src="cover.png" alt="image_1" class="responsive" height="automatic" width=automatic>
+  
+    </div>
+  </div>
+</div>
+
+<p> &ensp; </p>
+<!-- SECTION 2 -->
+<div class="box-effect">
+  
+<img src="bitcoin.png" alt="bitcoin" height="9%" width="22%" >
+
+<div  class="right-text">
+
+<p style="float: right; padding-right: 55%;"><h3>ABOUT US</h3></p>
+<p style="color: black; font-size: 120%;"> WELCOME TO OUR DIGITALEX </p>
+<p style="color: black; "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br>exercitationullamc </p> 
+
+<button style="background-color:blue; padding: 2% 2% 2%; border-radius: 10% ; color: #f7f7f7;cursor: pointer;" onclick="" >READ MORE</button>
+  </div>
+</div>
+
+&ensp; 
+<!-- SECTION 3 -->
+
+<div>
+  <h3> <p style="float: left; color: orange; padding-left:10%;">  SERVICES </p> </h3> 
+  <br>
+  <h1><p style="float: left; color:#f7f7f7 ;padding-left: 10;  ">CONSECTETUR ADIPISCING ELIT</p></h1> <br>
+</div>
+&ensp;
+<!-- IMAGES -->
+
+
+<div class="row" style="padding-top: 5%;">
+  <div class="column">
+    <img src="safe_secure.png" alt="safe_secure" style="width:45%">
+   <B> <p style="color: white;">SAFE SECURE</p></B>
+    <p  style="color: white;">ncididunt ut labore et <br>dolore magna aliqua. Ut enim</p>
+  </div>
+
+  <div class="column">
+    <img src="mobile.png" alt="mobile apps" style="width:42%">
+    <B> <p style="color: white;">Mobile Apps</p></B>
+    <p  style="color: white;">ncididunt ut labore et <br>dolore magna aliqua. Ut enim</p>
+  </div>
+
+  <div class="column">
+    <img src="wallet.png" alt="wallet" height=19% style="width:50%"  >
+    <B> <p style="color: white;">Wallet</p></B>
+    <p  style="color: white;">ncididunt ut labore et <br>dolore magna aliqua. Ut enim</p>
+    </div>
+
+   <div class="column">
+    <img src="expert.png" alt="expert" style="width:60%" height=129px>
+    <B> <p style="color: white;">Experts Support</p></B>  
+    <p  style="color: white;">ncididunt ut labore et <br>dolore magna aliqua. Ut enim</p>
+  </div>
+</div>
+
+&ensp;
+<!-- SECTION 4 -->
+
+<div style="text-align: center; background-color:white; padding: 1%; ;">
+ <b> <h3><p style="color:orange">BUY AND SELL BITCOINS</p></h3></b>
+
+ <pre><h1>WHY SO MANY PEOPLE  
+INVESTING IN DIGITAL</h1></pre>
+
+<img src="graph.png" alt="Analysis through graph">
+<br> <br>
+<button style="background-color:darkblue; padding: 1% 1% 1%; cursor: pointer;border-radius: 10% ; color: #f7f7f7;cursor: pointer;" >START NOW</button>
+
+&nbsp; <br>
+<b> <h3><p style="color:orange; font-family:bold;">WALLET</p></h3></b>
+<pre><h1 style="font-family: bold;">A MOST POWERFUL WALLET USE THIS WALLET FOR 
+  NEXT SECURE TRANSACTION
+</h1></pre>
+
+<img src="wallet_1.png" alt="Crypto Wallet">
+
+<br> <br>
+<button style="background-color:darkblue; padding: 1% 1% 1%; border-radius: 10% ; color: #f7f7f7;" >MAKE WALLET</button>
+</div>
+
+<!-- Section 5 -->
+<div class="container">
+<img src="bg_bitcoin.jpg" alt="baclground" width="100%" height="450px">
+
+<div class="centered">
+  <h2><p style="background-color: black;">SUBSCRIBE TO OUR NEWS LETTER </h2></p>    <!---- white was not visible so i added black background  and i didnt had that bg 
+    img so made another-->
+
+    <p style="background-color: black;"> It is a long established fact that a reader will be distracted by the readable content of a page <br>when looking at its layout. The point of using Loreum Ipsum is that it has a more-or-less normal distribution <br>of letters</p>
+
+        <div style="background-color: white; width: 40%; margin-left: 28%; height: 20%; border-radius:2px ;">
+            <input type="email" placeholder="Enter your email" >   <button style="background-color: orange; border-radius: 5px;cursor: pointer;">SUBSCRIBE</button>
+        </div>    
+</div>
+
+</div>
+
+
+
+<!-- Section 6 -->
+
+&nbsp; <br>
+
+<div style="text-align: center; background-color:white; padding: 1%; ;">
+  <b> <h3><p style="color:orange">TESTINOMIALS</p></h3></b>
+ 
+  <pre><h1>WHAT IS SAYS OUR CLIENTS</h1></pre>
+<br> <br>
+<img src="client.png" alt="client" height="77px" width="77px">
+<u style="text-decoration-color: orange;"><b></b><p>DISTRACTED BY   </p> </b> </u> 
+
+<pre style="font-family:Arial, Helvetica, sans-serif;"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The
+  point of using Lorem Ipsum is that it has a more-or-less normal distribution if ketters,
+</pre>
+<span class="dot_blue"></span>
+<span class="dot_orange"></span>
+<span class="dot_blue"></span>
+<span class="dot_blue"></span>
+
+<br> <br> <br>
+<b> <h3><p style="color:orange">CONTACT US</p></h3></b>
+<pre><h1>REQUEST A CALL BACK </h1></pre>
+
+<form>
+ 
+<input type="text" placeholder="Name" style="width: 65%; border-radius: 25px;" required>
+<br> <br> <br>
+
+<input type="number" placeholder="Phone number"  maxlength="10" style="width: 65%; height: 25px; border-radius: 25px;" required>
+<br> <br> <br>
+<input type="text" placeholder="Email Address" style="width: 65%; border-radius: 25px;" required>
+<br> <br> <br>
+
+<input type="text" placeholder="Message" style="width: 65%; ;height:75px ; border-radius: 25px;" required>
+<br> <br> <br>
+<button style="background-color:orange; padding: 1% 1% 1%; border-radius: 25px ; color: #f7f7f7;" >SEND</button>
+</form>
+
+<img src="map.png" alt="map">
+
+</div>
+                  <!-- FOOTER/ SITE MAP -->
+<footer>
+  <div class="sitemap">
+    <div class="column">
+      <img src="wallet.png" alt="Company Logo">
+      <h4 style="color: #f7f7f7;">DIGITALEX</h4>
+      <p style="color: #f7f7f7;"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The
+        point of using Lorem Ipsum is that it has a more-or-less normal distribution if ketters,</p>
+    </div>
+    <div class="column" style="color: #f7f7f7;">
+      <h4>Quick Links</h4>
+      <ul class="a">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Currency</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h4>Follow Us</h4>
+      <ul>
+        
+        <li><a href="#"><img src="facebook.png" alt="Facebook" width="40px" ></a></li>
+        <li><a href="#"><img src="twitter.png" alt="Twitter" width="40px"></a></li>
+        <li><a href="#"><img src="linkedin.png" alt="LinkedIn" width="40px"></a></li>
+        <li><a href="#"><img src="insta.png" alt="Instagram" width="40px"></a></li>
+      </ul>
+    </div>
+    <div class="column">
+      <h4>Contact Us</h4>
+      <p>Reader wil distractedy</p>
+      <p>Email: demo@ample.com</p>
+      <p>Phone: 123-456-7890</p>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
